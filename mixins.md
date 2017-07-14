@@ -1,4 +1,4 @@
-### Mixins and extending
+### Mixins
 
 - Avoid using mixins for applying styles as much as possible
 
