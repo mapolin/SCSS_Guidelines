@@ -40,6 +40,7 @@
     ```
     
 - Always add default values to mixin arguments
+
     **wrong**
     ```scss
     @mixin card($padding) {
@@ -56,6 +57,7 @@
     ```
     
 - Write mixin names using dash notation
+
     **wrong**
     ```scss
     @mixin cardGenerator($padding) {
@@ -72,6 +74,7 @@
     ```
     
 - Always think about using a `pure function mixin` instead of a traditional one
+
     **wrong**
     ```scss
     @mixin padding-generator($columns, $gutter) {
