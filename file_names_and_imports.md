@@ -24,3 +24,5 @@
     ```scss
     @import 'example';
     ```
+
+- SCSS files that include only mixins or other on-demand functionality should never output css when included via `@import`
