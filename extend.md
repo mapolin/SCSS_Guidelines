@@ -1,6 +1,7 @@
 ### Extending
 
 - Styles that are meant to be used only when extending, should be created using the `%` selector
+
     **wrong**
     ```scss
     .list-of-styles-created-for-extends {
