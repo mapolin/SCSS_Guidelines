@@ -87,8 +87,8 @@
     ```
     **correct**
     ```scss
-    @mixin padding-generator($columns, $gutter) {
-        return $columns * $gutter;
+    @function padding-generator($columns, $gutter) {
+        @return $columns * $gutter;
     }
     
     .padded-item {
